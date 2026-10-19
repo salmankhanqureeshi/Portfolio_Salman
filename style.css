@@ -1,0 +1,261 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #222222;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+
+/* Left Sidebar */
+
+.sidebar {
+    display: inline-block;
+    width: 27%;
+    margin-right: 1%;
+    padding: 35px 25px;
+    vertical-align: top;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    border-radius: 15px;
+}
+
+.profile-pic {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 20px auto;
+    border: 4px solid turquoise;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.sidebar h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: turquoise;
+    font-size: 17px;
+    margin: 0 0 20px 0;
+}
+
+.sidebar hr {
+    border: none;
+    border-top: 1px solid turquoise;
+    margin: 20px 0;
+}
+
+.sidebar nav a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+    background-color: turquoise;
+    border-color: turquoise;
+    color: navy;
+}
+
+.side-note {
+    color: lightblue;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/* Main Content */
+
+.main {
+    display: inline-block;
+    width: 71%;
+    vertical-align: top;
+}
+
+.main section {
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid navy;
+    border-radius: 15px;
+}
+
+.main h2 {
+    color: navy;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid teal;
+}
+
+.main p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* Home Section */
+
+#home {
+    background-color: #e8f6f6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: navy;
+}
+
+
+/* Skills Section (one row for each skill) */
+
+.skill-row {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-left: 6px solid teal;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.skill-image {
+    display: inline-block;
+    width: 130px;
+    height: 85px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.skill-info {
+    display: inline-block;
+    width: 70%;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.skill-info h3 {
+    color: teal;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.skill-info p {
+    margin: 0;
+    font-size: 17px;
+}
+
+
+/* Projects Section */
+
+.project-card {
+    padding: 20px;
+    border: 1px solid navy;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.project-card h3 {
+    color: navy;
+    font-size: 22px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.project-btn:hover {
+    background-color: navy;
+}
+
+
+/* Contact Section */
+
+#contact {
+    background-color: #e8f6f6;
+}
+
+#contact a {
+    color: teal;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 15px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
